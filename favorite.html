@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>favorite page</title>
+    <link rel="stylesheet" href="css/favorite.css">
+  </head>
+  <body>
+    <header>
+      <h1>JO YUNHO</h1>
+      <nav>
+        <a href = "home.html" class="header_a">Home</a>
+        <a href = "home.html#PF" class="header_a">Profile</a>
+        <a href = "favorite.html" class="header_a">Favorite</a>
+        <a href = "http://www.sejong.ac.kr" class="header_a" target="_blank">Sejong Univ.</a> <!-- a태그의 target attribute로 새 탭에서 링크가 열리도록 구현 -->
+        </nav>
+    </header>
+    <h1 id="title">Welcome! My favorite & Hobby</h1>
+    <hr>
+    <table>
+      <tr><td>
+        <span>
+          <h3 class="fa">favorite food</h3>
+        <ul>
+           <li>떡볶이</li>
+           <li>곱창</li>
+           <li>닭갈비</li>
+        </ul>
+      </span>
+      </td>
+      <td><span>
+        <h3 class="fa">favorite singer</h3>
+        <ul>
+          <li>트와이스</li>
+          <li>레드벨벳</li>
+          <li>장범준</li>
+      </span></td>
+      <td><span>
+        <h3 class="fa">hobby</h3>
+        <ul>
+          <li>Snow board</li>
+          <li>Golf</li>
+          <li>Movie</li>
+      </span></td>
+      <td><span>
+        <h3 class="fa">dream car</h3>
+        <a href="https://www.maseratiusa.com/us/en/models/granturismo" target="_blank"><img src="imgs/maserati_granturismo.jpg" width=300px height=130px id="maserati" alt="저작권 문제로 인해 사진은 첨부하지 않겠습니다."></img></a>
+        </span></td>
+      </tr>
+    </table>
+    <h3 class="fa">favorite music (<a href="http://www.youtube.com">Youtube Link</a>)</h3>
+    <!-- iframe을 이용해 youtube 영상 페이지를 가져와 디스플레이 -->
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/FM7MFYoylVs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/dvgZkm1xWPE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/EAVp84B888U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/bJxcFpSVZQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </body>
+
+  <!-- footer symantic tag를 이용해 하단에 주소나 이메일 copyright 등을 기재 -->
+  <footer id="footer">
+    <p class="address"><i class="fas fa-map-marked-alt"></i>서울특별시 광진구 군자동 OO로 OO-O</p>
+    <p class="contact"><i class="far fa-address-card"></i>Tel. 010-0000-0000    Email. <a href="mailto:yunho1001@gmail.com">yunho1001@gmail.com</a></p>
+    <p class="copyright"><i class="far fa-copyright"></i>Copyright 18013187. All rights reserved.</p>
+  </footer>
+</html>

@@ -1,0 +1,58 @@
+header {
+    text-align:center;
+    background-color:lightblue;
+}
+
+.header_a {
+  border: solid 1px #000000;
+  display: inline-block;
+  width: 10%;
+  margin-right: 2%;
+  text-decoration:none;
+}
+
+.header_a:link {
+  color:red;
+}
+
+.header_a:hover {
+  color:blue;
+  background:white;
+}
+
+.header_a:visited {
+  color:purple;
+}
+
+#title {
+  text-align: center;
+  background-color:yellow;
+  color:blue;
+}
+
+span {
+  height:200px;
+  width:300px;
+  background:yellow;
+  display:inline-block;
+  border-radius: 15px;
+}
+
+span:hover {
+  background-color:lightgreen;
+}
+
+.fa {
+  text-align:center;
+  font-family:serif;
+}
+
+footer {
+  width:100%;
+  text-align:center;
+  font-size:13px;
+  border-top: solid 1px; #cccccc;
+  margin-top:10px;
+  position:absolute;
+  botom:0;
+}

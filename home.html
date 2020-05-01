@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>윤호's Homepage</title>
+    <link rel="stylesheet" href="css/home.css">     <!-- css파일을 stylesheet로 link하여 해당 css폴더의 home.css를 가져와 사용 (External Style Sheet) -->
+    <link rel="icon" type="image/png" href="imgs/YH.png">
+    <script src="https://kit.fontawesome.com/ebe925e852.js" crossorigin="anonymous"></script> <!-- fontawesome을 가져와 사용 kit.fontawesome.com/사용자의고유번호 형태 -->
+  </head>
+  <body>
+    <header>
+    <h1><a href="home.html" id="Myname">JO YUNHO</a></h1>
+    <nav>
+      <a href = "#HM" class="header_a">Home</a>         <!-- href="#id"를 하게되면 해당 페이지의 id가 선언된 부분으로 이동 -->
+      <a href = "#PF" class="header_a">Profile</a>
+      <a href = "favorite.html" class="header_a">Favorite</a>
+      <a href = "http://www.sejong.ac.kr" class="header_a" target="_blank">Sejong Univ.</a>
+    </nav>
+  </header>
+
+    <section id="PF">
+      <table id="main">
+          <tr><th rowspan="5"><a href="home.html"><img src="imgs/조윤호 증명사진.jpg" width=200px alt="조윤호 증명사진" title="조윤호 증명사진"></img></a></th>			<!--rowspan attributes를 사용한 행 합치기(세로 셀 합치기)-->
+    			<td></td><td><i class="far fa-address-card">Student</td></tr>
+    			<tr><td></td><td><a href="http://www.sejong.ac.kr"><img src="imgs/university-icon.png" width=15px></img>Sejong Univ.</a></td></tr>
+          <tr><td></td><td><a href="http://instagram.com/celebrity_jo"><img src="imgs/instagram.png" width=15px></img>Instagram</a></td></tr>
+          <tr><td></td><td><a href="#trip_pic">여행사진</a>
+      </table>
+      <h2></h2>
+        <summary>My Profile</summary>
+        <ul type="circle">    <!-- unordered list태그의 type attribute로 표현형태를 바꿔줌 -->
+          <li class="prof">2012.03 ~ 2015.02, Student <a href="http://kanggo.net/main.do">Gangwon High school</a></li>
+          <li class="prof">2015.03 ~ 2017.02, Study Security</li>
+          <li class="prof">2018.05 ~ 2020.02, Part time job - KOREA CREDIT GUARANTEE FUND</li>
+          <li class="prof"><mark>2020.03 ~ present, Student <a href="http://sjce.kr">Dept. of Computer Science</a>, <a href="http://www.sejong.ac.kr">Sejong University</a></mark></li>
+        </ul>
+    </section>
+
+    <aside>
+      <iframe src="information.html" scrolling="no";></iframe> <!-- iframe으로 information.html을 home.html에 가져와 표시 -->
+    </aside>
+
+    <br>
+    <details>
+    <summary id="trip_pic">여행사진</summary>
+    <img src="imgs/SanFrancisco.JPG" width=300px alt="샌프란시스코 여행사진" title="샌프란시스코 여행사진"></img><br>
+    <img src="imgs/GrandCanyon.JPG" width=300px alt="그랜드캐니언 여행사진" title="그랜드캐니언 여행사진"></img>
+    </details>
+    <!-- footer symantic tag를 이용해 하단에 주소나 이메일 copyright 등을 기재 -->
+    <footer id="footer">
+      <p class="address"><i class="fas fa-map-marked-alt"></i>서울특별시 광진구 군자동 OO로 OO-O</p>
+      <p class="contact"><i class="far fa-address-card"></i>Tel. 010-0000-0000    Email. <a href="mailto:yunho1001@gmail.com">yunho1001@gmail.com</a></p>
+      <p class="copyright"><i class="far fa-copyright"></i>Copyright 18013187. All rights reserved.</p>
+    </footer>
+
+  </body>
+</html>

@@ -1,0 +1,10 @@
+q {                /*인용문구를 표시할때 쓰는 q태그에 글자 크기를 11px로 지정해주는 속성*/
+  font-size:11px;
+}
+small {
+  font-size:11px;
+}
+
+ul {              /*unordered list태그의 표현 형태를 사진을 불러와 구현*/
+  list-style-image:url('../imgs/star-icon.png');
+}

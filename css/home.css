@@ -1,0 +1,70 @@
+header {
+  text-align:center;
+  background-color:lightblue;
+}
+
+#Myname {
+  text-decoration: none;
+}
+
+#Myname:link {
+  color: black;
+}
+
+#Myname:hover {
+  color: black;
+}
+
+#Myname:visited {
+  color: black;
+}
+
+.header_a {
+  border: solid 1px #000000;
+  display: inline-block;
+  width: 10%;
+  margin-right: 2%;
+  text-decoration:none;
+}
+
+.header_a:link {
+  color:red;
+}
+
+.header_a:hover {
+  color:blue;
+  background:white;
+}
+
+.header_a:visited {
+  color:purple;
+}
+
+.main {
+  position:absolute;
+}
+
+section {
+  width: 69%;
+  float:left;
+}
+
+iframe {
+  width: 30%;
+  height: 500px;
+  border:none;
+}
+
+.prof {
+  font-style:italic;
+}
+
+footer {
+  width:100%;
+  text-align:center;
+  font-size:13px;
+  border-top: solid 1px; #cccccc;
+  margin-top:10px;
+  position:absolute;
+  botom:0;
+}
