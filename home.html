@@ -2,56 +2,81 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>윤호's Homepage</title>
-    <link rel="stylesheet" href="css/home.css">     <!-- css파일을 stylesheet로 link하여 해당 css폴더의 home.css를 가져와 사용 (External Style Sheet) -->
-    <link rel="icon" type="image/png" href="imgs/YH.png">
-    <script src="https://kit.fontawesome.com/ebe925e852.js" crossorigin="anonymous"></script> <!-- fontawesome을 가져와 사용 kit.fontawesome.com/사용자의고유번호 형태 -->
+    <title>Sejong Link</title>
+    <link rel="stylesheet" href="css/basicstyle.css">
   </head>
   <body>
-    <header>
-    <h1><a href="home.html" id="Myname">JO YUNHO</a></h1>
-    <nav>
-      <a href = "#HM" class="header_a">Home</a>         <!-- href="#id"를 하게되면 해당 페이지의 id가 선언된 부분으로 이동 -->
-      <a href = "#PF" class="header_a">Profile</a>
-      <a href = "favorite.html" class="header_a">Favorite</a>
-      <a href = "http://www.sejong.ac.kr" class="header_a" target="_blank">Sejong Univ.</a>
-    </nav>
-  </header>
+    <div id="page-wrapper">
+      <!--header-->
+      <header id="main-header">
+        <h1 class="master-title">Sejong Link</h1>
+        <h2 class="master-description">2019010711 서영덕</h2>
+      </header>
 
-    <section id="PF">
-      <table id="main">
-          <tr><th rowspan="5"><a href="home.html"><img src="imgs/조윤호 증명사진.jpg" width=200px alt="조윤호 증명사진" title="조윤호 증명사진"></img></a></th>			<!--rowspan attributes를 사용한 행 합치기(세로 셀 합치기)-->
-    			<td></td><td><i class="far fa-address-card">Student</td></tr>
-    			<tr><td></td><td><a href="http://www.sejong.ac.kr"><img src="imgs/university-icon.png" width=15px></img>Sejong Univ.</a></td></tr>
-          <tr><td></td><td><a href="http://instagram.com/celebrity_jo"><img src="imgs/instagram.png" width=15px></img>Instagram</a></td></tr>
-          <tr><td></td><td><a href="#trip_pic">여행사진</a>
-      </table>
-      <h2></h2>
-        <summary>My Profile</summary>
-        <ul type="circle">    <!-- unordered list태그의 type attribute로 표현형태를 바꿔줌 -->
-          <li class="prof">2012.03 ~ 2015.02, Student <a href="http://kanggo.net/main.do">Gangwon High school</a></li>
-          <li class="prof">2015.03 ~ 2017.02, Study Security</li>
-          <li class="prof">2018.05 ~ 2020.02, Part time job - KOREA CREDIT GUARANTEE FUND</li>
-          <li class="prof"><mark>2020.03 ~ present, Student <a href="http://sjce.kr">Dept. of Computer Science</a>, <a href="http://www.sejong.ac.kr">Sejong University</a></mark></li>
-        </ul>
-    </section>
+      <!--navigation-->
+      <nav id="main-navigation">
+        <div class ="pull-left">
+          <ul class="outer-menu">
+            <li class="outer-menu-item"><a href="home.html" class="menu-title">홈</a></li>
+            <li class="outer-menu-item"><a href="me.html" class="menu-title">나</a></li>
+            <li class="outer-menu-item"><a href="picture.html" class="menu-title">사진</a></li>
+            <li class="outer-menu-item"><a href="timetable.html" class="menu-title">시간표</a></li>
+          </ul>
+        </div>
+      </nav>
 
-    <aside>
-      <iframe src="information.html" scrolling="no";></iframe> <!-- iframe으로 information.html을 home.html에 가져와 표시 -->
-    </aside>
+      <!--본문-->
+      <div id="content">
 
-    <br>
-    <details>
-    <summary id="trip_pic">여행사진</summary>
-    <img src="imgs/SanFrancisco.JPG" width=300px alt="샌프란시스코 여행사진" title="샌프란시스코 여행사진"></img><br>
-    <img src="imgs/GrandCanyon.JPG" width=300px alt="그랜드캐니언 여행사진" title="그랜드캐니언 여행사진"></img>
-    </details>
-    <!-- footer symantic tag를 이용해 하단에 주소나 이메일 copyright 등을 기재 -->
-    <footer id="footer">
-      <p class="address"><i class="fas fa-map-marked-alt"></i>서울특별시 광진구 군자동 OO로 OO-O</p>
-      <p class="contact"><i class="far fa-address-card"></i>Tel. 010-0000-0000    Email. <a href="mailto:yunho1001@gmail.com">yunho1001@gmail.com</a></p>
-      <p class="copyright"><i class="far fa-copyright"></i>Copyright 18013187. All rights reserved.</p>
-    </footer>
+        <!--본문좌측-->
+        <section id="main-section">
+          <div class = "article-header">
+            <h1 class="article-title">세종대학교</h1>
+            <p class="article-date">1940년</p>
+          </div>
+          <div class="article-body">
+            <img id="sejong_mark" src="img/Sejong_mark.png" alt="세종대학교_마크">
+            <br>
+            <br>
+            <p>세종대학교는 대한민국 서울특별시 광진구에 위치한 4년제 사립 종합대학이다. 1940년 주영하가 서울특별시 성동구 광희동[3]에 설립한 경성인문중등학원이 시초이다.
+            학교법인 대양학원이 운영하고 있으며, 현재 총장은 제13대 배덕효이다. 학부는 단과대학 10개 독립학부 1개, 교양대학 1개로 구성되어 있고 대학원은 일반대학원 1개, 전문대학원 1개, 특수대학원 5개로 구성되어 있다.
+          캠퍼스의 정문은 서울 지하철 7호선의 어린이대공원역 6번 출구와 맞닿아 있으며, 인근에 서울어린이대공원과 건국대학교 서울캠퍼스가 있다.</p>
+          </div>
 
+          <div class = "article-header">
+            <h1 class="article-title">데이터사이언스학과</h1>
+            <p class="article-date">2017년</p>
+          </div>
+          <div class="article-body">
+            <img id="datascience"src="img/Datascience.jpg" alt="데이터사이언스학과">
+            <br>
+            <br>
+            <p>본 학과에서는 데이터 분석을 다루는 소프트웨어 분야 및 대용량 고속 데이터 분석을 위한 하드웨어 분야에 대하여 기본적이면서 포괄적인 지식
+            습득 및 이를 데이터 분석에 응용하는 능력 배양에 중점을 둔 교육 과정을 제공한다. 학습하는 과목은 컴퓨터의 핵심 과목과 데이터분석의 기초
+          가 되는 통계학, 데이터수집, 분석, 시각화, 데이터고속처리 기술, 알파고의 핵심기술인 기계학습 등이 포함된다. 데이터 분석에 대한 수요가 급속
+        히 확대되고 있고 SW 개발 및 분석에 대한 인력 수요가 급증하고 있어, 졸업 후에도 다양한 산업계 및 과학 기술 분야로의 진출이 용이한 첨단
+      융합 학과이다.</p>
+          </div>
+        </section>
+
+        <!--본문우측-->
+        <aside id="main-aside">
+          <div class="aside-list">
+            <h3>링크</h3>
+            <ul>
+              <li><a href="http://www.sejong.ac.kr/">세종대학교</a></li>
+              <li><a href="http://portal.sejong.ac.kr/">포탈</a></li>
+              <li><a href="http://blackboard.sejong.ac.kr/">블랙보드</a></li>
+              <li><a href="http://home.sejong.ac.kr/~dsdpt">데이터사이언스</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+
+      <!--footer-->
+      <footer id="main-footer">
+        <p>Created by 조윤호</p>
+      </footer>
+    </div>
   </body>
 </html>
