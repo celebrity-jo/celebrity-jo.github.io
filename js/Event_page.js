@@ -7,7 +7,7 @@ function Mouse_event() {
 }
 
 function Resize_event() {
-  document.getElementById("demo").innerHTML = "RESIZE evnet";
+  document.getElementById("demo").innerHTML = "RESIZE event";
 }
 
 function Msg() {
